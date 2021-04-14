@@ -2,6 +2,7 @@ import React from 'react'
 import {Card , Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './card.css'
+import { Link } from 'react-router-dom';
 function MovieCard({movie}) {
     return (
         <div className="list" >
@@ -12,7 +13,7 @@ function MovieCard({movie}) {
     <Card.Text>
      {movie.Description}
     </Card.Text>
-    <Button variant="primary">Trailer</Button>
+    <Link to={`/Description/${movie.id}`}  ><Button variant="primary">Description</Button></Link> 
   </Card.Body>
 </Card>
         </div>

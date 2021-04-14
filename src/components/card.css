@@ -73,3 +73,14 @@ ul {
   position: relative;
   right: 40px;
 }
+.card1{
+
+  width: 600px;
+  border: 10px solid rgb(26, 24, 24);
+  padding: 50px;
+  margin: 20px;
+  position: relative;
+  left: 320px;
+  font-weight: 600;
+  color: rgb(141, 141, 141);
+}

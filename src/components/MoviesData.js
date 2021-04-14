@@ -1,4 +1,8 @@
+
+
 const MoviesData = [{
+
+    id:1,
     Title: 'Hamilton (2020)',
     Actors: [' Lin-Manuel Miranda , Phillipa Soo , Leslie Odom Jr'],
     Rating: 5,
@@ -6,7 +10,7 @@ const MoviesData = [{
     Genres: [' Biography , Drama , History'],
     Description: "The real life of one of America's foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast."
 },
-{
+{ id:2,
     Title: '1917 (2019)',
     Actors: [' Dean-Charles Chapman, George MacKay, Daniel Mays '],
     Rating: 5,
@@ -14,7 +18,7 @@ const MoviesData = [{
     Genres: [' War , Drama , History'],
     Description: "April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap."
 },
-{
+{ id:3,
     Title: 'Klaus (2019)',
     Actors: ['  Jason Schwartzman, J.K. Simmons, Rashida Jones '],
     Rating: 4,
@@ -22,7 +26,7 @@ const MoviesData = [{
     Genres: [' Animation, Adventure, Comedy'],
     Description: "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions."
 },
-{
+{ id:4,
     Title: 'Joker (2019)',
     Actors: ['  Joaquin Phoenix, Robert De Niro, Zazie Beetz'],
     Rating: 4,
@@ -30,7 +34,7 @@ const MoviesData = [{
     Genres: [' Crime, Drama, Thriller'],
     Description: "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker."
 },
-{
+{ id:5,
     Title: 'Ford v Ferrari (2019)',
     Actors: ['  Jason Schwartzman, J.K. Simmons, Rashida Jones '],
     Rating: 5,
@@ -38,7 +42,7 @@ const MoviesData = [{
     Genres: ['  Action, Biography, Drama   '],
     Description: "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966."
 },
-{
+{ id:6,
     Title: 'Parasite (2019)',
     Actors: ['   Kang-ho Song, Sun-kyun Lee, Yeo-jeong Jo '],
     Rating: 5,
@@ -46,7 +50,7 @@ const MoviesData = [{
     Genres: ['Comedy, Drama, Thriller   '],
     Description: "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
 },
-{
+{ id:7,
     Title: 'The Christmas Chronicles 2 (2020)',
     Actors: ['   Kurt Russell, Judah Lewis '],
     Rating: 5,

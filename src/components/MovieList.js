@@ -8,7 +8,7 @@ function movieList({movies, search,rate}) {
     return (
         <div className="list">
             {movies
-            .filter(movie => ((movie.Title.toLowerCase().trim().includes(search.toLowerCase().trim())))&& movie.Rating=== rate ).map(movie => <MovieCard movie={movie}/>) }
+            .filter(movie => ((movie.Title.toLowerCase().trim().includes(search.toLowerCase().trim()))) ).map(movie => <MovieCard movie={movie}/>) }
             
        
         </div>
